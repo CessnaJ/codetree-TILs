@@ -5,9 +5,11 @@ public class Main {
 
         int a = sc.nextInt();
 
-        if(a == 1 ||a == 2 || a == 3 || a == 5 || a == 7 || a == 8 || a == 10 || a == 12){ // 쓰레기문제
+        if(a == 1 || a == 3 || a == 5 || a == 7 || a == 8 || a == 10 || a == 12){ // 쓰레기문제
             System.out.println("31");
-        }else{
+        }else if (a == 2){
+            System.out.println("28");
+        } else {
             System.out.println("30");
         }
     }
