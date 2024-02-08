@@ -12,7 +12,7 @@ public class Main {
             prod *= i;
             cnt++;
             i++;
-            if (prod >= n) {
+            if (prod > n) {
                 break;
             }
         }
