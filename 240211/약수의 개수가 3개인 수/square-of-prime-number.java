@@ -10,7 +10,7 @@ public class Main {
 
         for (int i = start; i <= end; i++) {
             temp = 0;
-            for (int j = 1; j < i; j++) {
+            for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
                     temp ++;
                 }
