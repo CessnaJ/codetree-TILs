@@ -7,7 +7,12 @@ public class Main {
         int cnt = 0;
         for (int i = 0; i < n; i++) {
             for (int j = n-i-1; j < n; j++) {
-                System.out.print((char)((int)'A' + cnt++));
+                System.out.print((char)((int)'A' + cnt));
+                if (cnt == 25) {
+                    cnt = 0;
+                } else {
+                    cnt++;
+                }
             }
             System.out.println();
         }
