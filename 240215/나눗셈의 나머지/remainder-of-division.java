@@ -7,7 +7,7 @@ public class Main {
         int num = sc.nextInt();
         int div = sc.nextInt();
 
-        while (num > 0) {
+        while (num >= 1) {
             arr[num % div]++;
             num /= div;
         }
