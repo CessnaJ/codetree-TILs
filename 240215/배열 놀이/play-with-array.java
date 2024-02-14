@@ -34,6 +34,7 @@ public class Main {
                 for (int k = targetA; k <= targetB; k++) {
                     System.out.printf("%d ", arr[k-1]);
                 }
+                System.out.println();
             }
         }
     }
