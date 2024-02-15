@@ -21,9 +21,10 @@ public class Main {
             } else if (operation == 2) {
                 int targetA = sc.nextInt();
                 int index = 0;
-                for (int k = 1; k < n+1; k++) {
+                for (int k = 1; k <= n+1; k++) {
                     if (arr[k] == targetA) {
                         index = k;
+                        break;
                     }
                 }
                 System.out.println(index);
