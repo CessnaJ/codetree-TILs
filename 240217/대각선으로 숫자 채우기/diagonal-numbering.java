@@ -18,7 +18,7 @@ public class Main {
         }
 
         for (int i = 1; i < n; i++) {
-            int r = i, c = n-1;
+            int r = i, c = m-1;
             while (0 <= r && r < n && 0 <= c && c < m) {
                 arr[r][c] = cnt++;
                 r++; c--;
